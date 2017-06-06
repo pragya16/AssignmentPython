@@ -1,4 +1,4 @@
-# Question 6: Write a program that takes inputs from user their name and their age. And display the year in which they will turn 100 years old
+'# Question 6: Write a program that takes inputs from user their name and their age. And display the year in which they will turn 100 years old
 
 import time
 
@@ -26,7 +26,7 @@ print 'Your Bday year is %d'%by
 
 by1=int(by+100)
 
-print 'Your age will be 100 years by 
+print 'Your age will be 100 years by' 
 '''
 output:
 [root@demo pragya_g16]# python sixthmain.py
