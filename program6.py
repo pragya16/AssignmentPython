@@ -1,4 +1,4 @@
-'# Question 6: Write a program that takes inputs from user their name and their age. And display the year in which they will turn 100 years old
+# Question 6: Write a program that takes inputs from user their name and their age. And display the year in which they will turn 100 years old
 
 import time
 
