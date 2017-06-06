@@ -6,7 +6,7 @@ def remove_even(l):
 			l.remove(i)   
  	print l   
   
-return lremove_even([5,6,77,45,22,12,24])
+return remove_even([5,6,77,45,22,12,24])
 remove_even([5,77,45,12])
 
 
