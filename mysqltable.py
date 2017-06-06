@@ -1,6 +1,6 @@
 #Creating Database Table----
 
-import MySQLdb
+import MySQL
 
 # Open database connection
 db = MySQLdb.connect("localhost","user","zen123","EMPDB" )
