@@ -45,3 +45,22 @@ conn.commit()
 
 print "Records distroy successfully";
 conn.close()
+
+
+
+''''
+output:
+
+Fast-forward program3.py | 4 ++-- 1 file changed, 2 insertions(+), 2 deletions(-)[root@demo AssignmentPython]# python program3.py
+Opened database successfullytable 
+create successfully
+Records insertsuccessfully
+FIRST_NAME =  pragya
+LAST_NAME =  Gupta
+AGE =  24
+SEX =  female
+INCOME=  20000.0
+Operation done successfullyRecords  
+update successfullyRecords 
+distroy successfully
+'''
