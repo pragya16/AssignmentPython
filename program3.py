@@ -19,8 +19,8 @@ cursor.execute(sql)
 print "table create successfully"
 
 # insert value in table
-cursor.execute ("INSERT INTO EMPLOYEE4 (FIRST_NAME, LAST_NAME, AGE, SEX ,INCOME) 
-      VALUES ('pragya', 'Gupta', 24, 'female', 20000.00 ");
+cursor.execute ("INSERT INTO EMPLOYEE4 (FIRST_NAME, LAST_NAME, AGE, SEX ,INCOME) \
+      VALUES ('pragya', 'Gupta', 24, 'female', 20000.00 )");
 print "Records insertsuccessfully"
 
 #display data
