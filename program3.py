@@ -19,7 +19,7 @@ cursor.execute(sql)
 print "table create successfully"
 
 # insert value in table
-cursor.execute ("INSERT INTO EMPLOYEE2(FIRST_NAME, LAST_NAME, AGE, SEX ,INCOME) \
+cursor.execute ("INSERT INTO EMPLOYEE2(FIRST_NAME, LAST_NAME, AGE, SEX ,INCOME) 
       VALUES ('pragya', 'Gupta', 24, 'female', 20000.00 ");
 print "Records insertsuccessfully"
 
