@@ -3,7 +3,7 @@
 
 def interchange(A, B):
     """ return the interchange of two lists """
-    return list(set(a) &  set(b))
+    return list(set(A) &  set(B))
 
 
 if __name__ == "__main__": 
