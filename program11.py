@@ -1,8 +1,8 @@
 # Question 11:Write a program that accepts a sentence and calculate the number of letters and digits.
-              Suppose the following input is supplied to the program:
-              i/p: Hello Priya 1287
-              o/p: LETTERS 10
-                     DIGITS 4
+            #  Suppose the following input is supplied to the program:
+             # i/p: Hello Priya 1287
+             # o/p: LETTERS 10
+                   #  DIGITS 4
 
 
 str=raw_input("enter string") d=l=0
