@@ -8,7 +8,7 @@ print "Opened database successfully";
 cursor = conn.cursor()
 
 # Create table as per requirement
-sql = """CREATE TABLE EMPLOYEE2 (
+sql = """CREATE TABLE EMPLOYEE4 (
          FIRST_NAME  CHAR(20) NOT NULL,
          LAST_NAME  CHAR(20),
          AGE INT,  
@@ -19,12 +19,12 @@ cursor.execute(sql)
 print "table create successfully"
 
 # insert value in table
-cursor.execute ("INSERT INTO EMPLOYEE2(FIRST_NAME, LAST_NAME, AGE, SEX ,INCOME) 
+cursor.execute ("INSERT INTO EMPLOYEE4 (FIRST_NAME, LAST_NAME, AGE, SEX ,INCOME) 
       VALUES ('pragya', 'Gupta', 24, 'female', 20000.00 ");
 print "Records insertsuccessfully"
 
 #display data
-cursor.execute ("SELECT FIRST_NAME, LAST_NAME, AGE, SEX ,INCOME from EMPLOYEE2 ")
+cursor.execute ("SELECT FIRST_NAME, LAST_NAME, AGE, SEX ,INCOME from EMPLOYEE4 ")
 for row in cursor:
    print "FIRST_NAME = ", row[0]
    print "LAST_NAME = ", row[1]
@@ -35,12 +35,12 @@ conn.commit()
 print "Operation done successfully"
 
 #update
-cursor.execute("UPDATE EMPLOYEE2 set INCOME=25000 where FIRST_NAME='pragya'")
+cursor.execute("UPDATE EMPLOYEE4 set INCOME=25000 where FIRST_NAME='pragya'")
 conn.commit()
 print "Records update successfully";
 
 # delete
-cursor.execute("DELETE from EMPLOYEE2 where LAST_NAME = 'Gupta'")
+cursor.execute("DELETE from EMPLOYEE4 where LAST_NAME = 'Gupta'")
 conn.commit()
 
 print "Records distroy successfully";
